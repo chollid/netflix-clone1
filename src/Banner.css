@@ -1,0 +1,18 @@
+.banner {
+    position: relative;
+    height: 448px;
+    color: white;
+    object-fit: contain;
+}
+
+.banner__contents {
+    margin: 0 0 0 30px;
+    padding: 140px 0 0 0;
+    height: 190px;
+}
+
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0 0 0.3rem 0;
+}
