@@ -1,30 +1,55 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import './Banner.css';
-
+import axios from './axios';
+import requests from './Requests';
 
 function Banner() {
-    return (
-        <header className="banner" style={{
-            backgroundSize: 'cover',
-            backgroundImage: `url("https://icdn2.digitaltrends.com/image/digitaltrends/netflix-global-expansion-header-1200x630-c-ar1.91.png")`,
-            backgroundPosition: "center center",
-        }}>
-            <div className="banner__contents">
-                <h1 className="banner__title">
-                    Movie Name
-                </h1>
-                <div className="banner__buttons">
-                    <button className="banner__button">Play</button>
-                    <button className="banner__button">My List</button>
-                </div>
-                <h1 className="banner__description">
-                    Test description
-                </h1>
-            </div>
+  const [movie, setMovie] = useState([]);
 
-            <div className="banner--fadeBottom" />
-        </header>
-    )
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(requests.fetchNetflixOriginals);
+      setMovie(
+        request.data.results[
+          Math.floor(Math.random() * request.data.results.length - 1)
+        ]
+      );
+      return request;
+    }
+
+    fetchData();
+  }, []);
+
+  function truncate(str, n) {
+    return str.length > n ? str.substr(0, n - 1) + '...' : str;
+  }
+
+  return (
+    <header
+      className="banner"
+      style={{
+        backgroundSize: 'cover',
+        backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+        backgroundPosition: 'center center',
+      }}
+    >
+      <div className="banner__contents">
+        <h1 className="banner__title">Movie Name</h1>
+        <div className="banner__buttons">
+          <button className="banner__button">Play</button>
+          <button className="banner__button">My List</button>
+        </div>
+        <h1 className="banner__description">
+          {truncate(
+            `Test descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest description`,
+            130
+          )}
+        </h1>
+      </div>
+
+      <div className="banner--fadeBottom" />
+    </header>
+  );
 }
 
-export default Banner
+export default Banner;
