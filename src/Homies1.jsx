@@ -9,7 +9,47 @@ function Homies1() {
   };
   return (
     <div>
-      <h1 onClick={doThis}></h1>
+      <h1 onClick={doThis}>Click here to console</h1>
+      <h1 onClick={doThis}>Click here to console</h1>
+      <h1 onClick={doThis}>Click here to console</h1>
+      <h1 onClick={doThis}>Click here to console</h1>
+      <h1 onClick={doThis}>Click here to console</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h1 onClick={doThis}>Click here to consoel</h1>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
+      <h5>Do something please.</h5>
     </div>
   );
 }
