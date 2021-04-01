@@ -22,7 +22,6 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
   return (
     <div className="row">
       <h2>{title}</h2>
-      {/* <h4>{movies.first_air_date}</h4> */}
 
       {/* {movies.map((movie) => (
         <img

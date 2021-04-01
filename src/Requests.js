@@ -1,5 +1,7 @@
 const API_KEY = '9fdc7001f8a59cadc4c1cf2faa33c0bb';
 
+// require('dotenv/config');
+
 const requests = {
   fetchTrending: `/trends/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
