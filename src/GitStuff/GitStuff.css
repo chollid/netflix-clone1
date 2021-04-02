@@ -3,3 +3,9 @@ body thingOne {
   border: 10px solid green;
   background: yellow;
 }
+
+p {
+  line-height: 17%;
+  gap: 22px;
+  overflow-y: hidden;
+}
