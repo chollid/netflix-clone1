@@ -10,6 +10,20 @@ function NewThings() {
     <p>Watch this number it's called additon. </p>
     <h1>Press this button</h1>
     <button>Press Me</button>
+    <p>Watch this number it's called additon. </p>
+    <h1>Press this button</h1>
+    <button>Press Me</button>
+    <p>Watch this number it's called additon. </p>
+    <h1>Press this button</h1>
+    <button>Press Me</button>
+    <p>Watch this number it's called additon. </p>
+    <h1>Press this button</h1>
+    <button>Press Me</button>
+    <p>Watch this number it's called additon. </p>
+    <h1>Press this button</h1>
+    <button>Press Me</button>
+
+    {77 + 99}
   </div>;
 }
 
