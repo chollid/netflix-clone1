@@ -7,21 +7,11 @@ function NewThings() {
   <div>
     {thisThing + 88}
 
-    <p>Watch this number it's called additon. </p>
-    <h1>Press this button</h1>
-    <button>Press Me</button>
-    <p>Watch this number it's called additon. </p>
-    <h1>Press this button</h1>
-    <button>Press Me</button>
-    <p>Watch this number it's called additon. </p>
-    <h1>Press this button</h1>
-    <button>Press Me</button>
-    <p>Watch this number it's called additon. </p>
-    <h1>Press this button</h1>
-    <button>Press Me</button>
-    <p>Watch this number it's called additon. </p>
-    <h1>Press this button</h1>
-    <button>Press Me</button>
+    <form action="POST">
+      <button>Help Me</button>
+      <input type="email" placeholder="bob's menu" />
+      <p>Hey Look up above!</p>
+    </form>
 
     {77 + 99}
   </div>;
