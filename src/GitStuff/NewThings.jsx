@@ -32,21 +32,14 @@ function NewThings() {
       <input type="email" placeholder="bob's menu" />
       <p>Hey Look up above!</p>
     </form>
-    <form action="POST">
-      <button>Help Me</button>
-      <input type="email" placeholder="bob's menu" />
-      <p>Hey Look up above!</p>
-    </form>
-    <form action="POST">
-      <button>Help Me</button>
-      <input type="email" placeholder="bob's menu" />
-      <p>Hey Look up above!</p>
-    </form>
-    <form action="POST">
-      <button>Help Me</button>
-      <input type="email" placeholder="bob's menu" />
-      <p>Hey Look up above!</p>
-    </form>
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
+    <input type="email" placeholder="yourname@email.com" />
   </div>;
 }
 
