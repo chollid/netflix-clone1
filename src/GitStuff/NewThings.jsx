@@ -33,13 +33,11 @@ function NewThings() {
       <p>Hey Look up above!</p>
     </form>
     <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
-    <input type="email" placeholder="yourname@email.com" />
+
+    <h2>Hey HI</h2>
+    <h6>Hey you</h6>
+    <h2>No no no</h2>
+    <h1>Yes yes yes</h1>
   </div>;
 }
 
