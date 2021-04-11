@@ -21,15 +21,25 @@ function ThoseThings() {
         fore surefore surefore surefore surefore surefore surefore surefore
         surefore surefore surefore surefore surefore surefore surefore surefore
         surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore surefore surefore surefore surefore surefore
-        surefore surefore surefore sure
       </p>
+      <button>Press me</button>
+      <button>Press me</button>
+      <button>Press me</button>
+      <button>Press me</button>
+      <button>Press me</button>
+      <button>Press me</button>
+
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
+      <input type="email" />
     </div>
   );
 }
