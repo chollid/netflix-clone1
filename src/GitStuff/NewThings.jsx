@@ -21,31 +21,41 @@ function NewThings() {
     <h1>YEP EYPE YPEYPE YEPE YPE</h1>
     <h1>YEP EYPE YPEYPE YEPE YPE</h1>
     <h1>YEP EYPE YPEYPE YEPE YPE</h1>
-  
-    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
-    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+
     <h1>YEP EYPE YPEYPE YEPE YPE</h1>
 
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
-    <h5>HI HI HI HI HIHIhI</h5>
     <h5>HI HI HI HI HIHIhI</h5>
     <h5>HI HI HI HI HIHIhI</h5>
     <h5>HI HI HI HI HIHIhI</h5>
 
     <button>eys</button>
- 
+
+    <canvas>Drop it like it's hot</canvas>
+
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
+    <p>You dont even knoe bro</p>
   </div>;
 }
 
