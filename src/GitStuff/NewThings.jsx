@@ -17,27 +17,25 @@ function NewThings() {
       <input type="email" placeholder="bob's menu" />
       <p>Hey Look up above!</p>
     </form>
-    <form action="POST">
-      <button>Help Me</button>
-      <input type="email" placeholder="bob's menu" />
-      <p>Hey Look up above!</p>
-    </form>
-    <form action="POST">
-      <button>Help Me</button>
-      <input type="email" placeholder="bob's menu" />
-      <p>Hey Look up above!</p>
-    </form>
-    <form action="POST">
-      <button>Help Me</button>
-      <input type="email" placeholder="bob's menu" />
-      <p>Hey Look up above!</p>
-    </form>
-    <input type="email" placeholder="yourname@email.com" />
-
-    <h2>Hey HI</h2>
-    <h6>Hey you</h6>
-    <h2>No no no</h2>
-    <h1>Yes yes yes</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+    <h1>YEP EYPE YPEYPE YEPE YPE</h1>
+ 
   </div>;
 }
 
