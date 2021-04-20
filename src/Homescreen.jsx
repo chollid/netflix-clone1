@@ -5,7 +5,7 @@ import Banner from './Banner.jsx';
 import requests from './Requests.js';
 import Row from './Row.jsx';
 
-function Homescreen() {
+function HomeScreen() {
   return (
     <div className="homeScreen">
       <NavBar />
@@ -48,4 +48,4 @@ function Homescreen() {
   );
 }
 
-export default Homescreen;
+export default HomeScreen;

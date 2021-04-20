@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HomeScreen from './Homescreen.jsx';
+import HomeScreen from './HomeScreen.jsx';
 function App() {
   return (
     <div className="app">
