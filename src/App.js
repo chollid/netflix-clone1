@@ -28,7 +28,7 @@ function App() {
         );
       } else {
         //logged out - resets user back to null
-        dispatch(logout);
+        dispatch(logout());
       }
     });
 
