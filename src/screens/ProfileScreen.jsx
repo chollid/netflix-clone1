@@ -18,6 +18,9 @@ function ProfileScreen() {
             <h2>{user.email}</h2>
             <div className="profileScreen__plans">
               <button
+                // Triggers onAuthStateChanged listener on app.js bc state changed
+                // Now no userAuth - ifElse on app.js triggers dispatch(logout()) - sets user = null
+                // ternary on app.js render the Loginscreen
                 onClick={() => auth.signOut()}
                 className="profileScreen__signOut"
               >
