@@ -7,9 +7,11 @@ export const userSlice = createSlice({
   },
   reducers: {
     login: (state, action) => {
+      //the user is set to the payload - in this case uid & email
       state.user = action.payload;
     },
     logout: (state) => {
+      //Sets user to null
       state.user = null;
     },
   },

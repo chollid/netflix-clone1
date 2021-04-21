@@ -5,6 +5,7 @@ import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import LoginScreen from './LoginScreen';
 import HomeScreen from './screens/HomeScreen.jsx';
+import ProfileScreen from './screens/ProfileScreen.jsx';
 import { login, logout, selectUser } from './features/userSlice';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((userAuth) => {
       if (userAuth) {
-        //logged in
+        //logged in - sends uid/email to redux store
         dispatch(
           login({
             uid: userAuth.uid,
@@ -26,13 +27,13 @@ function App() {
           })
         );
       } else {
-        //logged out
+        //logged out - resets user back to null
         dispatch(logout);
       }
     });
 
     return unsubscribe;
-  }, [dispatch, user]);
+  }, [dispatch]);
   return (
     <div className="app">
       <Router>
@@ -40,6 +41,9 @@ function App() {
           <LoginScreen />
         ) : (
           <Switch>
+            <Route exact path="/profile">
+              <ProfileScreen />
+            </Route>
             <Route exact path="/">
               <HomeScreen />
             </Route>
