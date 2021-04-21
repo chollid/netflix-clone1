@@ -10,7 +10,7 @@ import { login, logout, selectUser } from './features/userSlice';
 function App() {
   // Pull in the user State from the redux store
   const user = useSelector(selectUser);
-  // const user = null;
+
   //Shoot a payload (dispatch) to the redux store
   const dispatch = useDispatch();
 
@@ -25,7 +25,6 @@ function App() {
             email: userAuth.email,
           })
         );
-        console.log(user);
       } else {
         //logged out
         dispatch(logout);
@@ -33,7 +32,7 @@ function App() {
     });
 
     return unsubscribe;
-  }, [dispatch]);
+  }, [dispatch, user]);
   return (
     <div className="app">
       <Router>
