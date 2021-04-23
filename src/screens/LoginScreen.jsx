@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 import './LoginScreen.css';
 import SignUpScreen from './SignUpScreen.jsx';
+import NavBarLogo from '../Assets/NavBarLogo.png';
+// import { useHistory } from 'react-router';
 
 function LoginScreen() {
   const [signIn, setSignIn] = useState(false);
+  // const history = useHistory();
 
   return (
     <div className="loginScreen">
       <div className="loginScreen__background">
-        <img
-          className="loginScreen__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt="netflix"
-        />
+        <img className="loginScreen__logo" src={NavBarLogo} alt="netflix" />
         <button onClick={() => setSignIn(true)} className="loginScreen__button">
           Sign In
         </button>

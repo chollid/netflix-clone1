@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
-import LoginScreen from './LoginScreen';
+import LoginScreen from './screens/LoginScreen';
 import HomeScreen from './screens/HomeScreen.jsx';
 import ProfileScreen from './screens/ProfileScreen.jsx';
 import { login, logout, selectUser } from './features/userSlice';
+// import SignUpScreen from './screens/SignUpScreen';
 
 function App() {
   // Pull in the user State from the redux store
