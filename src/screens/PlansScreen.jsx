@@ -4,6 +4,7 @@ import { selectUser } from '../features/userSlice';
 import db from '../firebase';
 import './PlansScreen.css';
 import { loadStripe } from '@stripe/stripe-js';
+//import
 
 function PlansScreen() {
   const [products, setProducts] = useState([]);
@@ -49,6 +50,7 @@ function PlansScreen() {
       });
   }, []);
 
+  //@ Todo remove these at some point
   console.log(products);
   console.log(subscription);
 
@@ -67,7 +69,7 @@ function PlansScreen() {
       const { error, sessionId } = snapshot.data();
 
       if (error) {
-        // show and error to your customer and
+        // show an error to your customer and
         //inspect your Cloud Function logs in the Firebase console
         alert(`An error occured: ${error.message}`);
       }
